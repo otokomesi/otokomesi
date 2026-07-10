@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #111111;
+    color: #ffffff;
+	font-family: "メイリオ", "Meiryo", sans-serif;
+}
+
+header {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background-color: #111111;
+	color: #ffffff;
+}
+
+header h1 {
+	margin: 0 0 20px 20px;
+	color: #e84a35;
+	font-family: Impact, sans-serif;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	width: 170px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+nav a {
+	display: block;
+	padding: 12px 0;
+	background-color: #333333;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #e84a35;
+}
+
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#contents {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #1b1b1b;
+}
+
+#main {
+	float: left;
+	width: 620px;
+}
+
+#sub {
+	float: right;
+	width: 220px;
+}
+
+#contents:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main_visual {
+	margin: 0 0 20px 0;
+	padding: 60px 20px;
+
+	background-image:
+		linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+		url("../images/top.jpg");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 50px;
+	text-shadow: 3px 3px 5px #000000;
+}
+.main_visual img {
+    width: 700px;
+    height: auto;
+}
+
+.main_visual span {
+    color: #c62828;
+    font-weight: bold;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+section h2,
+aside h2 {
+	padding: 8px;
+	color: #e84a35;
+	border-left: 8px solid #e84a35;
+	background-color: #eeeeee;
+	font-size: 20px;
+}
+
+.recipe,
+.menu_box {
+	margin-bottom: 20px;
+	padding: 15px;
+	 background-color: #2b2b2b;
+     border-left:6px solid #e84a35;
+}
+.menu_box img:hover{
+    transform:scale(1.03);
+}
+
+.recipe h3{
+    text-align: center;
+    color: #e84a35;
+    font-size: 30px;
+}
+
+.recipe img{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 15px auto;
+}
+
+.recipe p{
+    text-align: center;
+    color: white;
+}
+
+aside {
+	padding: 10px;
+	background-color: #2b2b2b;
+    border: 1px solid #555555;
+}
+
+aside ul {
+	padding-left: 20px;
+}
+
+aside li {
+	margin-bottom: 10px;
+}
+
+aside a {
+	color: #C9A227;
+}
+
+footer {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background-color: #111111;
+	color: #ffffff;
+	text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.top {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.top a {
+    color: #E84A35;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top a:hover {
+    color: white;
+}
